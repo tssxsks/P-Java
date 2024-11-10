@@ -1,0 +1,34 @@
+﻿Lớp User chỉ có 2 thuộc tính là username và password.
+
+Cho danh sách user, sau đó là thông tin một số các lần đăng nhập.
+
+Một lần đăng nhập được coi là thành công nếu username và password đều đúng.
+
+Hãy đếm xem mỗi người dùng trong danh sách đăng nhập thành công mấy lần.
+
+Input
+
+Dòng đầu ghi số N là số user (không quá 100).
+
+Tiếp theo là N dòng, mỗi dòng ghi tên username và password, cách nhau 1 khoảng trống. Các xâu ký tự mô tả username và password đều có độ dài không quá 20.
+
+Tiếp theo là một dòng ghi số M là số lần đăng nhập (không quá 1000).
+
+Tiếp theo là M dòng ghi thông tin của lần đăng nhập tương ứng.
+
+Output
+
+Ghi một dòng có N giá trị số, lần lượt là số lần đăng nhập thành công của lần lượt từng user từ 1 đến N.
+4
+tendangnhap matkhau
+username password
+nguoidung m4tkh4un4yr4tb40m4t
+user2 password
+6
+tendangnhap matkhau
+username matkhau
+bfc34 contest
+username password
+tendangnhap matkhau
+user2 password
+2 1 0 1
